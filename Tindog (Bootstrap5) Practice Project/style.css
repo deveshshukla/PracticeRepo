@@ -1,0 +1,75 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+.gradient-bg-feature1 {
+  background: linear-gradient(300deg, #40E0D0, #FF8C00, #FF0080);
+  background-size: 180% 180%;
+  animation: gradient-animation 5s ease infinite;
+}
+
+.gradient-bg-feature2 {
+  background: linear-gradient(300deg, #ec38bc, #7303c0, #03001e);
+  background-size: 180% 180%;
+  animation: gradient-animation 5s ease infinite;
+}
+
+.gradient-bg-feature3 {
+  background: linear-gradient(300deg, #fdbb2d, #b21f1f, #1a2a6c);
+  background-size: 180% 180%;
+  animation: gradient-animation 5s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Hero Section */
+hero, .hero-img {
+  height: 500px;
+  width: 300px;
+}
+
+#features {
+  margin-top: 2rem;
+}
+
+#testimonial > .container > h2 {
+  margin: 3rem 0;
+}
+
+.testimonial-img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  transition: ease-in-out .5s;
+}
+
+.testimonial-img:hover {
+  cursor: pointer;
+  border-radius: 25%;
+  transition: ease-in-out .5s;
+}
+
+#pricing > .container > h2 {
+  margin: 3rem 0;
+}
+
+#footer {
+  background-color: black;
+}
+#footer, .nav-item {
+  color: white;
+}
